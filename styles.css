@@ -1,0 +1,564 @@
+* {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    color: #000000;
+}
+
+.taskbar {
+    position: fixed;
+    width: 100px;
+    height: 60px;
+    left: 300px;
+    top: 1em;
+    z-index: 5;
+}
+
+.work__bar {
+    position: absolute;
+    width: 57px;
+    height: 43px;
+    left: 856px;
+    top: 27px;
+
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+}
+
+.blog__bar {
+    position: absolute;
+    width: 106px;
+    height: 43px;
+    left: 882px;
+    top: 27px;
+
+
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+    color: orange;
+}
+
+.contacts__bar {
+    position: absolute;
+    width: 71px;
+    height: 43px;
+    left: 1021px;
+    top: 27px;
+
+    font-size: 20px;
+    line-height: 29px;
+    text-align: right;
+}
+
+.tittle {
+    position: absolute;
+    width: 506px;
+    height: 100px;
+    left: 300px;
+    top: 148px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+
+    /* Dark Color */
+    color: #21243D;
+}
+
+.dashboard__2020 {
+    position: absolute;
+    width: 62px;
+    height: 25px;
+    left: 300px;
+    top: 280px;
+    /* Year */
+    background: #FF7C7C;
+    border-radius: 16px;
+}
+
+.year__2020 {
+
+    position: absolute;
+    width: 42px;
+    height: 60px;
+    left: 10px;
+    top: -18px;
+
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    /* identical to box height, or 333% */
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.dashboard__tittle {
+    position: absolute;
+    width: 374px;
+    height: 34px;
+    left: 370px;
+    top: 278px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    /* Dark Color */
+    color: #21243D;
+}
+
+.dashboard__content {
+    position: absolute;
+    width: 681px;
+    height: 44px;
+    left: 300px;
+    top: 335px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.interface__image {
+    position: absolute;
+    width: 681px;
+    height: 460px;
+    left: 300px;
+    top: 425px;
+
+    background: url(image.png);
+}
+
+.heading1 {
+    position: absolute;
+    width: 506px;
+    height: 45px;
+    left: 300px;
+    top: 939px;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    /* or 200% */
+
+    /* Dark Color */
+    color: #21243D;
+}
+
+.heading2 {
+    position: absolute;
+    width: 506px;
+    height: 82px;
+    left: 300px;
+    top: 984px;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    /* or 250% */
+    /* Dark Color */
+    color: #21243D;
+}
+
+.heading__content {
+    position: absolute;
+    width: 677px;
+    height: 48px;
+    left: 300px;
+    top: 1049px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.car__image {
+    position: absolute;
+    width: 681px;
+    height: 460px;
+    left: 300px;
+    top: 1127px;
+
+    background: url(image.png);
+}
+
+.rectangle__image {
+    position: absolute;
+    width: 681px;
+    height: 460px;
+    left: 300px;
+    top: 1614px;
+
+    background: url(image.png);
+}
+
+.footer__box {
+    transform: translate(15%, 1150%);
+    background: #FFFFFF;
+
+    height: 182px;
+    width: 1152px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.fb__image {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: calc(50% - 30px/2 - 102px);
+    top: calc(50% - 30px/2 - 25px);
+    /* Dark */
+    background: #ffffff;
+}
+
+.twitter__image {
+    position: absolute;
+    width: 36.92px;
+    height: 30px;
+    left: calc(50% - 36.92px/2 + 31.46px);
+    top: calc(50% - 30px/2 - 25px);
+    /* Dark */
+    background: #ffffff;
+}
+
+.linkein__image {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: calc(50% - 30px/2 + 100px);
+    top: calc(50% - 30px/2 - 25px);
+    /* Dark */
+    background: #ffffff;
+}
+
+.square__shape {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: calc(50% - 30px/2 - 37px);
+    top: calc(50% - 30px/2 - 25px);
+    /* Dark */
+    background: #fdfdff;
+}
+
+.circle__image {
+    position: absolute;
+    width: 15.46px;
+    height: 15.46px;
+    left: calc(50% - 15.46px/2 - 37px);
+    top: calc(50% - 15.46px/2 - 25px);
+    /* Dark */
+    background: #fcfcfd;
+}
+
+.little__spot {
+    position: absolute;
+    width: 3.9px;
+    height: 3.9px;
+    left: calc(50% - 3.9px/2 - 28.95px);
+    top: calc(50% - 3.9px/2 - 33.03px);
+    /* Dark */
+    background: #f6f6f8;
+}
+
+.copyright {
+    position: absolute;
+    height: 21px;
+    left: 40.28%;
+    right: 40.45%;
+    top: calc(50% - 21px/2 + 26.5px);
+
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    /* Dark */
+    color: #21243D;
+}
+/* moblie */
+@media (max-width: 700px) {
+    * {
+        font-weight: 400;
+    }
+
+    .taskbar {
+        position: sticky;
+        width: 100px;
+        height: 60px;
+        left:0px;
+        top: 1em;
+        z-index: 5;
+    }
+
+    .work__bar {
+        position: absolute;
+        width: 57px;
+        height: 43px;
+        left: 26px;
+        top: 27px;
+
+        font-size: 20px;
+        line-height: 29px;
+        text-align: right;
+    }
+
+    .blog__bar {
+        position: absolute;
+        width: 106px;
+        height: 43px;
+        left: 46px;
+        top: 27px;
+
+
+        font-size: 20px;
+        line-height: 29px;
+        text-align: right;
+        color: orange;
+    }
+
+    .contacts__bar {
+        position: absolute;
+        width: 71px;
+        height: 43px;
+        left: 166px;
+        top: 27px;
+
+        font-size: 20px;
+        line-height: 29px;
+        text-align: right;
+    }
+
+    .tittle {
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        left:10px;
+        top: 148px;
+
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 50px;
+        /* Dark Color */
+        color: #21243D;
+    }
+
+    .dashboard__2020 {
+        position: absolute;
+        width: 40px;
+        height: 20px;
+        left: 00px;
+        top: 280px;
+        /* Year */
+        background: #FF7C7C;
+        border-radius: 16px;
+    }
+
+    .year__2020 {
+        position: absolute;
+        width: 42px;
+        height: 60px;
+        left: 3px;
+        top: -19px;
+
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 60px;
+        /* identical to box height, or 333% */
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    .dashboard__tittle {
+        position: absolute;
+        width:260px;
+        height: 34px;
+        left: 60px;
+        top: 278px;
+
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 29px;
+        /* Dark Color */
+        color: #21243D;
+    }
+
+    .dashboard__content {
+        position: absolute;
+        width: 260px;
+        height: 20px;
+        left: 10px;
+        top: 335px;
+
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 24px;
+
+    }
+
+    .interface__image {
+        position: absolute;
+        width: 260px;
+        height: 260px;
+        left: 20px;
+        top: 465px;
+        background: url(image.png);
+    }
+
+    .heading1 {
+        position: absolute;
+        width: 260px;
+        height: 45px;
+        left: 10px;
+        top: 750px;
+
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 60px;
+        /* or 200% */
+
+        /* Dark Color */
+        color: #21243D;
+    }
+
+    .heading2 {
+        position: absolute;
+        width: 300px;
+        height: 82px;
+        left: 10px;
+        top: 800px;
+
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 60px;
+        /* or 250% */
+        /* Dark Color */
+        color: #21243D;
+    }
+
+    .heading__content {
+        position: absolute;
+        width: 260px;
+        height: 48px;
+        left: 10px;
+        top: 850px;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .car__image {
+        position: absolute;
+        width: 260px;
+        height: 260px;
+        left: 10px;
+        top: 987px;
+        background: url(image.png);
+    }
+
+    .rectangle__image {
+        position: absolute;
+        width: 260px;
+        height: 260px;
+        left: 10px;
+        top: 1334px;
+        background: url(image.png);
+    }
+
+    .footer__box {
+        transform: translate(15%, 1150%);
+        background: #FFFFFF;
+
+        height: 182px;
+        width: 82px;
+        left: 0px;
+        top: 0px;
+        border-radius: 0px;
+    }
+
+    .fb__image {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 50px;
+        top: -450px;
+
+        /* Dark */
+        background: #ffffff;
+    }
+
+    .twitter__image {
+        position: absolute;
+        width: 26.92px;
+        height: 20px;
+        left: 150px;
+        top: -450px;
+        /* Dark */
+        background: #ffffff;
+    }
+
+    .linkein__image {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 200px;
+        top: -450px;
+        /* Dark */
+        background: #ffffff;
+    }
+
+    .square__shape {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 100px;
+        top: -450px;
+        /* Dark */
+        background: #fdfdff;
+    }
+
+    .circle__image {
+        position: absolute;
+        width: 10.46px;
+        height: 10.46px;
+        left: 105px;
+        top: -444px;
+        /* Dark */
+        background: #fcfcfd;
+    }
+
+    .little__spot {
+        position: absolute;
+        width: 3.9px;
+        height: 3.9px;
+        left: 114px;
+        top: -446px;
+        /* Dark */
+        background: #f6f6f8;
+    }
+
+    .copyright {
+        position: absolute;
+        height: 21px;
+        left: -390px;
+        right:-580px;
+        top:-400px;
+
+        font-size: 12px;
+        line-height: 21px;
+        /* identical to box height */
+        text-align: center;
+        /* Dark */
+        color: #21243D;
+    }
+}
